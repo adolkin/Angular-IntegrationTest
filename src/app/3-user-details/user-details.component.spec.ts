@@ -23,10 +23,11 @@ class ActivatedRouteStub {
     this.subject.next(value);
   }
 
-  // Expose this subject as an observable to the outside world
+  // Expose this subject as an observable to the outside
   get params() {
     return this.subject.asObservable();
   }
+
 }
 
 describe('UserDetailsComponent', () => {
