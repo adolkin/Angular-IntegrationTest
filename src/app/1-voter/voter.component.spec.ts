@@ -49,7 +49,7 @@ describe('VoterComponent', () => {
   })
 
   // Test event binding
-  it('should increae total votes when I click the upvote', () => {
+  it('should increase total votes when I click the upvote', () => {
     let button = fixture.debugElement.query(By.css('.glyphicon-menu-up'));
 
     // click button
